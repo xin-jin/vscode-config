@@ -1,0 +1,37 @@
+#+BEGIN_SRC bash
+{
+    "telemetry.enableTelemetry": false,
+    "python.pythonPath": "/home/xin/anaconda3/bin/python",
+    "python.jediEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "julia.executablePath": "/home/xin/julia/bin",
+    "workbench.colorTheme": "Solarized Light",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format-8",
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.intelliSenseMode": "clang-x64",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, TabWidth: 4 }",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+    "window.zoomLevel": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.condaPath": "/home/xin/anaconda3/bin/conda",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501",
+        "--verbose"
+    ],
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--ignore=E501",
+        "--verbose"
+    ],
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "80"
+    ]
+}
+#+END_SRC
